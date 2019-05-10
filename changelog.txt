@@ -1,0 +1,38 @@
+Changelog 5-10-2019 v0.2
+
+Added:
+        -Changelog!
+        -Created the wireframe for the contact page
+            -Added:
+                -Name text input
+                -Email text input
+                -Message text area
+                -Submit button
+                -Nav pane to navigate back to pages
+        -Created the wireframe for the portfolio page
+            -Added:
+                -Nav pane to navigate back to pages
+
+Changed:
+
+Removed:
+        -Removed about.html as to have that redirect back to index.html
+
+---------------------------------------------------------------------------------------------------
+
+Changelog 5-9-20190 v0.1
+
+Added:
+        -Webpage wireframe
+        -Created other pages to link in the nav
+            -about.html
+            -contact.html
+            -portfolio.html
+        -Created CSS page
+            -style.CSS
+        -Imported CSS
+        -Created the wireframe for index.html
+        -Added basic style to index.html
+
+
+            
