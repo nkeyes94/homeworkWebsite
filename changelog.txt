@@ -9,9 +9,15 @@ Added:
                 -Message text area
                 -Submit button
                 -Nav pane to navigate back to pages
+                -Forms
+                -Mailto action to the form
         -Created the wireframe for the portfolio page
             -Added:
                 -Nav pane to navigate back to pages
+                -Added placeholder buttons
+        -Added a section & article to index.html
+        -Added placeholder text inside of the section & article
+        -Added an aside section with placeholder text
 
 Changed:
 
