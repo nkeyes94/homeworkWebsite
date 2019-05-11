@@ -11,6 +11,7 @@ Added:
                 -Nav pane to navigate back to pages
                 -Forms
                 -Mailto action to the form
+                -Added a reset button to the inputs
         -Created the wireframe for the portfolio page
             -Added:
                 -Nav pane to navigate back to pages
@@ -18,8 +19,7 @@ Added:
         -Added a section & article to index.html
         -Added placeholder text inside of the section & article
         -Added an aside section with placeholder text
-
-Changed:
+        -Added margins to the aside and section (note these to be adjusted later)
 
 Removed:
         -Removed about.html as to have that redirect back to index.html
