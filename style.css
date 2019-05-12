@@ -9,3 +9,41 @@ aside
     float: right;
     margin: 5%
 }
+
+.jumbotron
+{
+    background-image:url(testPicture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1
+{
+    position: relative;
+    display: block;
+    right: 60px;
+    top: 55px;
+}
+
+#portfolioTitle
+{
+    color: #ccc;
+}
+
+#title
+{
+    color: #ccc;
+}
+
+.buttons
+{
+    text-align: center;
+}
+
+/* Borders set for helping positioning */
+*
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00c4ff;
+}

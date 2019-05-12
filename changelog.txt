@@ -1,3 +1,24 @@
+Changelog 5-12-2019 v0.3
+
+Added:
+    -Index.html:
+        -Background image in the jumbotron
+            -This is more or less a placeholder image to be changed later
+        -Added temporary borders in order to help positioning on the Webpage
+        -Positioned text inside of the jumbotron
+    -Portfolio.html
+        -jumbotron
+        -Text positioned inside the jumbotron
+        -Centered the buttons on the page
+
+Changed:
+    -contact.html:
+        -Changed the order of the nav button links to be in-line with other pages
+    -portfolio.html
+        -Fixed an issue where the last button wasn't lined up correctly with the others
+    
+---------------------------------------------------------------------------------------------------
+
 Changelog 5-10-2019 v0.2
 
 Added:
