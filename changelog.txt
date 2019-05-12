@@ -1,15 +1,19 @@
 Changelog 5-12-2019 v0.3
 
 Added:
+    -Temporary borders to help in positioning of the website
     -Index.html:
         -Background image in the jumbotron
             -This is more or less a placeholder image to be changed later
-        -Added temporary borders in order to help positioning on the Webpage
         -Positioned text inside of the jumbotron
     -Portfolio.html
         -jumbotron
         -Text positioned inside the jumbotron
         -Centered the buttons on the page
+    -Contact.html
+        -jumbotron
+        -Text positioned inside the jumbotron
+        -Centered the forms
 
 Changed:
     -contact.html:

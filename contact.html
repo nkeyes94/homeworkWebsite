@@ -2,7 +2,12 @@
 <html>                                          <!--Start of the HTML-->
     <head>                                      <!--Start of the head-->
         <title>Contact</title>
-        <h1>Contact</h1>
+
+        <div class="container">                 <!--Start of our container-->
+            <div class="jumbotron">             <!--Start of our jumbotron-->
+                <h1 id="contactTitle">Contact</h1>
+            </div>                              <!--End of our jumbotron-->
+        </div>                                  <!--End of our container-->
     </head>                                     <!--End of the head-->
 
     <nav>                                       <!--Start of the nav pane-->
@@ -13,7 +18,7 @@
 
     <body>                                      <!--Start of the body-->
         <!--Start of the form-->
-        <form action="mailto:n.keyes1994@gmail.com" method="POST" enctype="text/plain">
+        <form action="mailto:n.keyes1994@gmail.com" method="POST" enctype="text/plain" class="forms">
             <!--Text input box for the name-->
             Name:<br>
             <input type="text" name="name"><br>
@@ -30,4 +35,9 @@
             <input type="reset" value="Reset">
         </form>                                 <!--End of the form-->
     </body>                                     <!--End of the body-->
+
+    <!--Linking our style sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </html>                                         <!--End of the HTML-->

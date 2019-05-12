@@ -25,6 +25,11 @@ aside
     top: 55px;
 }
 
+#contactTitle
+{
+    color: #ccc;
+}
+
 #portfolioTitle
 {
     color: #ccc;
@@ -33,6 +38,11 @@ aside
 #title
 {
     color: #ccc;
+}
+
+.forms
+{
+    text-align: center;
 }
 
 .buttons
