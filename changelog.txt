@@ -6,14 +6,21 @@ Added:
         -Background image in the jumbotron
             -This is more or less a placeholder image to be changed later
         -Positioned text inside of the jumbotron
+        -Centered nav pane
     -Portfolio.html
         -jumbotron
         -Text positioned inside the jumbotron
         -Centered the buttons on the page
+        -Centered nav pane
+        -Added placeholder image to buttons
+        -Added another section for more buttons to test styling
+            -Created a section
+            -Positioned 4 placeholder image buttons inside of this in a 2x2
     -Contact.html
         -jumbotron
         -Text positioned inside the jumbotron
         -Centered the forms
+        -Centered nav pane
 
 Changed:
     -contact.html:

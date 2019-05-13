@@ -50,6 +50,27 @@ aside
     text-align: center;
 }
 
+.navPane
+{
+    text-align: center;
+}
+
+.testButton
+{
+    background-image: url(placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+}
+
+.testSection
+{
+    text-align: center;
+    width: 450px;
+    height: 245px;
+}
+
 /* Borders set for helping positioning */
 *
 {
