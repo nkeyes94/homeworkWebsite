@@ -28,6 +28,10 @@ section
     color: white;
     background-color: #808080;
     width: 33.3333%;
+    opacity: 0.75;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00ccff;
 }
 
 #navPortfolio
@@ -37,6 +41,10 @@ section
     color: white;
     background-color: #262626;
     width: 33.3333%;
+    opacity: 0.75;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00ccff;
 }
 
 #navContact
@@ -46,6 +54,10 @@ section
     color: white;
     background-color: #808080;
     width: 33.3333%;
+    opacity: 0.75;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00ccff;
 }
 
 #imageSection
@@ -56,6 +68,9 @@ section
     margin-top: 10px;
     margin-left: 10px;
     float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00ccff;
 }
 
 #aboutSection
@@ -68,10 +83,14 @@ section
     margin-left: 10px;
     text-align: center;
     opacity: 0.75;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00ccff;
 }
 
 footer
 {
+    padding: 20px;
     margin-top: 10px;
     height: 100px;
     width: 100%;

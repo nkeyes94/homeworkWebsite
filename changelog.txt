@@ -10,6 +10,9 @@ Added:
         -Added a background image
         -Changed the opacity of the about section to 75%
             -This allows the background image of the site to peek through and add some nice flow
+        -Fixed the spacing in the footer
+        -Added some opacity to the nav pane buttons
+        -Added a border to the nav pane buttons
 
 ----------------------------------------------------------------------------------------------------
 
