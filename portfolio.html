@@ -5,58 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>Portfolio</title>
-        
-        <div class="container">                 <!--Start of the div-->
-            <div class="jumbotron">
-                <h1 id="portfolioTitle">Portfolio</h1>
-            </div>
-        </div>                                  <!--End of the div-->
+
     </head>                                     <!--End of head-->
 
-    <nav class="navPane">                       <!--Start of the nav pane-->
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>                                      <!--End of the nav pane-->
-
     <body>                                      <!--Start of the body-->
+        <!-- Header for the page -->
+        <header id="pageHeader">
+                <h1>Portfolio</h1>
+            </header>
+            
+            <div class="nav" id="navPane">                      <!--Nav pane-->
+                <!-- First nav pane, which goes to the about section -->
+                <section id="navAbout">             
+                    <a href="index.html">About</a>
+                </section>
+                <!-- Second nav pane, which goes to the portfolio -->
+                <section class="nav" id="navPortfolio">
+                    <a href="portfolio.html">Portfolio</a>
+                </section>
+                <!-- Third nav pane, which goes to the contact -->
+                <section class="nav" id="navContact">
+                    <a href="contact.html">Contact</a>
+                </section>
+            </div>
+
         <!--Will add buttons linking to other projects here-->
         <!--Other projects should be repos on Github?-->
         <!-- These buttons are stacked ontop of one another -->
         <!-- The buttons class is an image, set in style.css -->
-        <div class="buttons">
-            <button class="testButton"></button>
-            <br>
-            <button class="testButton"></button>
-            <br>
-            <button class="testButton"></button>
-            <br>
-            <button class="testButton"></button>
-            <br>
-            <button class="testButton"></button>
-            <br>
-        </div>
+        <!--  -->
         <!-- Created a new section to test buttons -->
         <!-- The test section is 450x245 -->
         <!-- The button stacks are 2x2 -->
+        <div class="wrapper">
         <div class="buttons">
             <section class="testSection">
-                <p>placeholder</p>
                 <button class="testButton" id=buttonOne></button>
                 <button class="testButton" id="buttonTwo"></button>
                 <button class="testButton" id="buttonThree"></button>
                 <button class="testButton" id="buttonFour"></button>
+                <button class="testButton" id="buttonFive"></button>
+                <button class="testButton" id="buttonSix"></button>
             </section>
         </div>
-
-        <div class="buttons">
-            <aside>
-                <button>Test button</button>
-                <br>
-                <button>Test button</button>
-                <br>
-            </aside>
         </div>
+        
+        <footer>
+                <h1>Placeholder</h1>
+        </footer>
     </body>                                     <!--End of the body-->
 
     <!--Linking our stylesheet-->

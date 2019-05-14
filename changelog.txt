@@ -13,6 +13,21 @@ Added:
         -Fixed the spacing in the footer
         -Added some opacity to the nav pane buttons
         -Added a border to the nav pane buttons
+    -Changed the format to contact.html
+        -Changed the header/footer
+        -Sections to the nav pane
+        -Stylized the inputs/buttons
+            -Added borders
+            -Changed opacity of text inputs and buttons to 75%
+    -Changed the format to portfolio.html
+        -Adjusted the number of buttons from 4 to 6.
+        -Changed opacity of buttons to 75%
+        -Added borders to the buttons
+        -Created a wrapper in order to center the buttons pane
+        -Changed the header/footer
+
+Removed:
+    -The jumbotron styling & all jumbotrons
 
 ----------------------------------------------------------------------------------------------------
 
