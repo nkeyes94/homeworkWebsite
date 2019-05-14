@@ -1,3 +1,11 @@
+Changelog 5-13-2019
+Added:
+    -Test.html/test.css
+        -These pages will help with stylizing
+        -Formatted the page with a header, footer and sections
+
+----------------------------------------------------------------------------------------------------
+
 Changelog 5-12-2019 v0.3
 
 Added:
