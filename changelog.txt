@@ -3,6 +3,13 @@ Added:
     -Test.html/test.css
         -These pages will help with stylizing
         -Formatted the page with a header, footer and sections
+    -Changed the format to index.html
+        -Made sections for the nav pane
+        -Added a placeholder image for the section
+        -Stylized the sections
+        -Added a background image
+        -Changed the opacity of the about section to 75%
+            -This allows the background image of the site to peek through and add some nice flow
 
 ----------------------------------------------------------------------------------------------------
 

@@ -75,6 +75,11 @@ footer
     background-color: #333333;
 }
 
+body
+{
+    background-image: url(polyGray.png);
+}
+
 #background
 {
     background-color: cyan;

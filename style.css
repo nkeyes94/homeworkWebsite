@@ -1,28 +1,89 @@
+
+#pageHeader
+{
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #333333;
+}
+
 section
 {
+    float: top;
+}
+
+.nav
+{
+    text-align: center;
+}
+#aboutTitle
+{
+    color: #00ccff;
+}
+
+#navAbout
+{
     float: left;
-    margin: 5%
+    padding: 10px;
+    color: white;
+    background-color: #808080;
+    width: 33.3333%;
 }
 
-aside
+#navPortfolio
 {
-    float: right;
-    margin: 5%
+    float: left;
+    padding: 10px;
+    color: white;
+    background-color: #262626;
+    width: 33.3333%;
 }
 
-.jumbotron
+#navContact
 {
-    background-image:url(testPicture.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    float: left;
+    padding: 10px;
+    color: white;
+    background-color: #808080;
+    width: 33.3333%;
 }
 
-.jumbotron h1
+#imageSection
 {
-    position: relative;
-    display: block;
-    right: 60px;
-    top: 55px;
+    width: 300px;
+    height: 300px;
+    background-image: url(300x300placeholder.jpg);
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#aboutSection
+{
+    height: 300px;
+    width: 73.5%;
+    float: left;
+    background-color: #808080;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    opacity: 0.75;
+}
+
+footer
+{
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: #333333;
+}
+
+body
+{
+    background-image: url(polyGray.png);
 }
 
 #contactTitle
@@ -71,9 +132,9 @@ aside
     height: 245px;
 }
 /* Borders set for helping positioning */
-*
+/* *
 {
     border-style: solid;
     border-width: 2px;
     border-color: #00c4ff;
-}
+} */
