@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html>                                          <!--Start of the HTML-->
     <head>                                      <!--Start of the head-->
+        
         <title>Contact</title>
 
-        <div class="container">                 <!--Start of our container-->
-            <div class="jumbotron">             <!--Start of our jumbotron-->
-                <h1 id="contactTitle">Contact</h1>
-            </div>                              <!--End of our jumbotron-->
-        </div>                                  <!--End of our container-->
     </head>                                     <!--End of the head-->
 
-    <nav class="navPane">                       <!--Start of the nav pane-->
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>                                      <!--End of the nav pane-->
-
     <body>                                      <!--Start of the body-->
+        <header id="pageHeader">
+                <h1>Contact</h1>
+            </header>
+        
+        <div class="nav" id="navPane">                      <!--Nav pane-->
+            <!-- First nav pane, which goes to the about section -->
+            <section id="navAbout">             
+                <a href="index.html">About</a>
+            </section>
+            <!-- Second nav pane, which goes to the portfolio -->
+            <section class="nav" id="navPortfolio">
+                <a href="portfolio.html">Portfolio</a>
+            </section>
+            <!-- Third nav pane, which goes to the contact -->
+            <section class="nav" id="navContact">
+                <a href="contact.html">Contact</a>
+            </section>
+        </div>
+        
         <!--Start of the form-->
         <form action="mailto:n.keyes1994@gmail.com" method="POST" enctype="text/plain" class="forms">
             <!--Text input box for the name-->
             Name:<br>
-            <input type="text" name="name"><br>
+            <input class ="textInput" type="text" name="name"><br>
             <!--Text input box for the email-->
             Email:<br>
-            <input type="text" email="email"><br>
+            <input class="textInput" type="text" email="email"><br>
             <!--Text area for the message-->
             Comment:<br>
-            <textarea rows="5" cols="30" name="Comment"></textarea>
+            <textarea class="textInput" rows="7" cols="70" name="Comment"></textarea>
             <br>
             <!--Submit button-->
-            <input type="submit" value="Submit">
+            <input class="formButton" type="submit" value="Submit">
             <!--Reset button-->
-            <input type="reset" value="Reset">
+            <input class="formButton" type="reset" value="Reset">
         </form>                                 <!--End of the form-->
+
+        <footer>
+                <h1>Placeholder</h1>
+            </footer>
     </body>                                     <!--End of the body-->
 
     <!--Linking our style sheet-->
