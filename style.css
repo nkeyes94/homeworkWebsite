@@ -21,7 +21,7 @@ section
     color: #00ccff;
 }
 
-#navAbout
+.navAbout
 {
     float: left;
     padding: 10px;
@@ -34,7 +34,7 @@ section
     border-color: #00ccff;
 }
 
-#navPortfolio
+.navPortfolio
 {
     float: left;
     padding: 10px;
@@ -47,7 +47,7 @@ section
     border-color: #00ccff;
 }
 
-#navContact
+.navContact
 {
     float: left;
     padding: 10px;

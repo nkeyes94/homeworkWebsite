@@ -27,13 +27,23 @@ section
     width: 33.3333%;
 }
 
-#secondSection
+/* #secondSection
 {
     float: left;
     padding: 10px;
     color: white;
     background-color: #262626;
     width: 33.3333%;
+} */
+
+#testButton
+{
+    float: left;
+    padding: 10px;
+    color: white;
+    background-color: #262626;
+    width: 33.3333%;
+    opacity: 0.75;
 }
 
 #thirdSection

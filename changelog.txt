@@ -1,4 +1,42 @@
-Changelog 5-13-2019
+Changelog 5-15-2019 v0.5
+
+Added:
+    -logic.js
+        -Javascript file for buttons
+        -Added about button
+        -Added logic to go to index.html when About button is clicked
+        -Added portfolio button
+        -Added logic to go to portfolio.html when Portfolio button is clicked
+        -Added contact button
+        -Added logic to go to contact.html when Contact button is clicked
+
+Changed:
+    -index.html
+        -Imported logic.js
+        -Imported jquery
+        -Changed the contact link to a button
+        -Changed the about link to a button
+        -Changed the portfolio link to a button
+        -Moved the CSS/JS to header
+    -contact.html
+        -Imported logic.js
+        -Imported jquery
+        -Changed the contact link to a button
+        -Changed the about link to a button
+        -Changed the portfolio link to a button
+        -Moved the CSS/JS to header
+    -portfolio.html
+        -Imported logic.js
+        -Imported jquery
+        -Changed the contact link to a button
+        -Changed the about link to a button
+        -Changed the portfolio link to a button
+        -Moved the CSS/JS to header
+
+----------------------------------------------------------------------------------------------------
+
+Changelog 5-13-2019 v0.4
+
 Added:
     -Test.html/test.css
         -These pages will help with stylizing

@@ -6,6 +6,13 @@
         
         <title>Portfolio</title>
 
+        <!-- Linking jQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!--Linking our stylesheet-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
     </head>                                     <!--End of head-->
 
     <body>                                      <!--Start of the body-->
@@ -16,16 +23,16 @@
             
             <div class="nav" id="navPane">                      <!--Nav pane-->
                 <!-- First nav pane, which goes to the about section -->
-                <section id="navAbout">             
-                    <a href="index.html">About</a>
+                <section>             
+                    <button class="navAbout" id="aboutMe">About</button>
                 </section>
                 <!-- Second nav pane, which goes to the portfolio -->
-                <section class="nav" id="navPortfolio">
-                    <a href="portfolio.html">Portfolio</a>
+                <section>
+                    <button class="navPortfolio" id="portfolioButton">Portfolio</button>
                 </section>
                 <!-- Third nav pane, which goes to the contact -->
-                <section class="nav" id="navContact">
-                    <a href="contact.html">Contact</a>
+                <section>
+                    <button class="navContact" id="contactButton">Contact</button>
                 </section>
             </div>
 
@@ -53,10 +60,11 @@
         <footer>
                 <h1>Placeholder</h1>
         </footer>
+
+        <!-- Linking JS page -->
+        <script type="text/javascript" src="logic.js"></script>
+
     </body>                                     <!--End of the body-->
 
-    <!--Linking our stylesheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
 </html>                                         <!--End of HTML-->
