@@ -12,6 +12,9 @@ Added:
     -style.css
         -Added animations to the buttons
             -The animation will now product a pointer when hovering over the buttons
+    -placeholder.html
+        -Basic webpage as a means direct links from the portfolio.html file to
+        -Will add in actual pages once I have more to add.
 
 Changed:
     -index.html
@@ -38,6 +41,9 @@ Changed:
         -Changed the portfolio link to a button
         -Moved the CSS/JS to header
         -Added multiple cl asses to the nav buttons
+        -Added functionality to the placeholder project buttons
+            -The placeholder project buttons now direct to placeholder.html
+                -As implied, this is temporary until I have more of a showcase
     -style.css
         -Changed the navX link IDs to classes
 
