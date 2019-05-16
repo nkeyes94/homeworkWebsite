@@ -9,6 +9,9 @@ Added:
         -Added logic to go to portfolio.html when Portfolio button is clicked
         -Added contact button
         -Added logic to go to contact.html when Contact button is clicked
+    -style.css
+        -Added animations to the buttons
+            -The animation will now product a pointer when hovering over the buttons
 
 Changed:
     -index.html
@@ -18,6 +21,7 @@ Changed:
         -Changed the about link to a button
         -Changed the portfolio link to a button
         -Moved the CSS/JS to header
+        -Added multiple classes to the nav buttons
     -contact.html
         -Imported logic.js
         -Imported jquery
@@ -25,6 +29,7 @@ Changed:
         -Changed the about link to a button
         -Changed the portfolio link to a button
         -Moved the CSS/JS to header
+        -Added multiple classes to the nav buttons
     -portfolio.html
         -Imported logic.js
         -Imported jquery
@@ -32,6 +37,9 @@ Changed:
         -Changed the about link to a button
         -Changed the portfolio link to a button
         -Moved the CSS/JS to header
+        -Added multiple cl asses to the nav buttons
+    -style.css
+        -Changed the navX link IDs to classes
 
 ----------------------------------------------------------------------------------------------------
 
