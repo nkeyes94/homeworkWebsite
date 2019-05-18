@@ -1,3 +1,8 @@
+*
+{
+    font-family: 'Marcellus SC', serif;
+}
+
 
 #pageHeader
 {
@@ -5,6 +10,7 @@
     margin-bottom: 10px;
     color: white;
     background-color: #333333;
+    font-family: 'Marcellus SC', serif;
 }
 
 section
@@ -25,7 +31,7 @@ section
 {
     float: left;
     padding: 10px;
-    color: white;
+    color:#00ccff;
     background-color: #808080;
     width: 33.3333%;
     opacity: 0.75;
@@ -38,7 +44,7 @@ section
 {
     float: left;
     padding: 10px;
-    color: white;
+    color: #00ccff;
     background-color: #262626;
     width: 33.3333%;
     opacity: 0.75;
@@ -51,7 +57,7 @@ section
 {
     float: left;
     padding: 10px;
-    color: white;
+    color: #00ccff;
     background-color: #808080;
     width: 33.3333%;
     opacity: 0.75;
@@ -218,6 +224,36 @@ body
 {
     opacity: 1;
     right: 0;
+}
+
+.portfolioButton
+{
+    position: relative;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolioButton:after
+{
+    content:"";
+    background: #90ee90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.button:active:after
+{
+    padding: 0;
+    margin: 0 ;
+    opacity: 1;
+    transition: 0s;
 }
 /* Borders set for helping positioning */
 /* *
