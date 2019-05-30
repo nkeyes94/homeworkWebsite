@@ -68,7 +68,7 @@ section
 
 #imageSection
 {
-    width: 300px;
+    width: 300px;           /* Originally 300px x 300px*/
     height: 300px;
     background-image: url(300x300placeholder.jpg);
     margin-top: 10px;
@@ -82,7 +82,7 @@ section
 #aboutSection
 {
     height: 300px;
-    width: 73.5%;
+    width: 73.5%;                   /* Orignally 73.5*/
     float: left;
     background-color: #808080;
     margin-top: 10px;
@@ -101,6 +101,7 @@ footer
     height: 100px;
     width: 100%;
     position: absolute;
+    float: bottom;
     bottom: 0;
     color: white;
     background-color: #333333;
