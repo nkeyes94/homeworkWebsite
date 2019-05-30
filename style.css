@@ -101,7 +101,6 @@ footer
     height: 100px;
     width: 100%;
     position: absolute;
-    float: bottom;
     bottom: 0;
     color: white;
     background-color: #333333;
@@ -256,6 +255,13 @@ body
     opacity: 1;
     transition: 0s;
 }
+#Page-container
+{
+    position: relative;
+    min-height: 100vh;
+}
+
+
 /* Borders set for helping positioning */
 /* *
 {
